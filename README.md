@@ -22,6 +22,7 @@ Having a RPi and [INA219](https://www.adafruit.com/product/904)  at hand, I deci
 - [ ] Clean the code
 - [ ] Create short overview video
 - [ ] Compare to professional equipment
+- [ ] Better exceptions handling and show problems on dashboard
 
 ### MCU (ESP32) Power Monitoring Example
 <img src="mcu-example.png" alt="drawing" width="900"/>
