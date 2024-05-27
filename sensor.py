@@ -79,15 +79,8 @@ def get_data_logger(data_lst, max_time_s, interval_ms, save_to_file, save_to_fil
         print("Error in get_data_logger:", e)
         return pd.DataFrame()
 
-# Get one reading of voltage and current from sensor and return as pandas dataframe with timestamp as index
-
 
 def get_sensor_data(ina, start, data_lst):
-    # try:
-    #     ina = init_sensor()
-    # except Exception as e:
-    #     print(e)
-    #     print("Could not initialize sensor")
     if "current" in data_lst and "voltage" in data_lst:
         df = pd.DataFrame(
             dict(current=ina.current(), voltage=ina.voltage()), index=[(pi.get_current_tick()-start)/1000]
