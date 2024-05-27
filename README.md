@@ -21,6 +21,7 @@ Having a RPi and [INA219](https://www.adafruit.com/product/904)  at hand, I deci
 - [ ] Add script to configure as a boot service using systemd
 - [ ] Clean the code
 - [ ] Create short overview video
+- [ ] Compare to professional equipment
 
 ### MCU (ESP32) Power Monitoring Example
 <img src="mcu-example.png" alt="drawing" width="900"/>
